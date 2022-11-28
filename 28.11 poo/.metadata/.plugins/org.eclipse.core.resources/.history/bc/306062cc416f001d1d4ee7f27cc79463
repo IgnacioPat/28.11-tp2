@@ -1,0 +1,23 @@
+package interfaz;
+import datos.*;
+import java.util.*;
+public class Main {
+
+	public static void main(String[] args) {
+
+		LinkedList todasVentas = new LinkedList<>();
+		
+		Cafe caf = new Cafe(0, 0, 0);
+		Cafe caff = new Cafe(0, 0, 0);
+		Cafe cafff = new Cafe(0, 0, 0);
+
+		todasVentas.add(caf);
+		
+		System.out.println(caf);
+		System.out.println(caff);
+		System.out.println(cafff);
+
+		System.out.println(todasVentas);
+	}
+
+}

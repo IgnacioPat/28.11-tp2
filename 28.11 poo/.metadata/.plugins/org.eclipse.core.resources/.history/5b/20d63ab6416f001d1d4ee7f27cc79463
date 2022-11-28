@@ -1,0 +1,17 @@
+package interfaz;
+import datos.*;
+public class Main {
+
+	public static void main(String[] args) {
+
+		Cafe caf = new Cafe(0, 0, 0);
+		Cafe caff = new Cafe(0, 0, 0);
+		Cafe cafff = new Cafe(0, 0, 0);
+
+		System.out.println(caf);
+		System.out.println(caff);
+		System.out.println(cafff);
+
+	}
+
+}

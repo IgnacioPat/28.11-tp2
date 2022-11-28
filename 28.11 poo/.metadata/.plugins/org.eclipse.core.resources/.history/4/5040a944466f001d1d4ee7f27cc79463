@@ -1,0 +1,51 @@
+package interfaz;
+import datos.*;
+import java.util.*;
+
+import javax.swing.JOptionPane;
+public class Main {
+static int alfinal;
+	public static void main(String[] args) {
+
+		LinkedList<Cafe> todasVentas = new LinkedList<Cafe>();
+		
+		Cafe caf = new Cafe(0, 0, 0);
+/*		Cafe caff = new Cafe(0, 0, 0);
+		Cafe cafff = new Cafe(0, 0, 0);
+*/
+		todasVentas.add(caf);
+		
+		int tipoDcafe;
+		do {
+			tipoDcafe=Integer.parseInt(JOptionPane.showInputDialog(null,"tipo d cafe"));
+			tipoDcafe=0;
+			todasVentas.add(new Cafe(0,caf.setTipo(tipoDcafe),0));
+		}
+		 while (tipoDcafe!=0);
+	
+			
+			
+			
+			
+			
+			
+		
+do {
+alfinal= Integer.parseInt(JOptionPane.showInputDialog(null,""));
+
+switch (alfinal) {
+case 1:
+	
+	break;
+case 2:
+	
+	break;
+default:
+	break;
+}
+
+	} while (alfinal!=0);
+	System.out.println(todasVentas);
+}
+
+}
